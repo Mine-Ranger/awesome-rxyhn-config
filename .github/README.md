@@ -7,7 +7,7 @@
 
 <p align="center">
 <a href="#wrench--setup"><img width="150px" style="padding: 0 10px;" src="assets/button-setup.png"></a>
-<a href="https://github.com/rxyhn/dotfiles/wiki"><img width="150px" style="padding: 0 10px;" src="assets/button-wiki.png"></a>
+<a href="https://github.com/Mine-Ranger/awesome-rxyhn-config/wiki"><img width="150px" style="padding: 0 10px;" src="assets/button-wiki.png"></a>
 <a href="#ocean--gallery"><img width="150px" style="padding: 0 10px;" src="assets/button-gallery.png"></a>
 <a href="#money_with_wings--tip-jar"><img width="150px" style="padding: 0 10px;" src="assets/button-tipjar.png"></a>
 </p>
@@ -26,10 +26,10 @@
 <!-- BADGES -->
 <h1>
   <a href="#--------">
-    <img alt="" align="left" src="https://img.shields.io/github/stars/rxyhn/dotfiles?color=162026&labelColor=162026&style=for-the-badge"/>
+    <img alt="" align="left" src="https://img.shields.io/github/stars/Mine-Ranger/awesome-rxyhn-config?color=162026&labelColor=162026&style=for-the-badge"/>
   </a>
   <a href="#--------">
-    <img alt="" align="right" src="https://badges.pufler.dev/visits/rxyhn/dotfiles?style=flat-square&label=&color=162026&logo=github&logoColor=white&labelColor=162026"/>
+    <img alt="" align="right" src="https://badges.pufler.dev/visits/Mine-Ranger/awesome-rxyhn-config?style=flat-square&label=&color=162026&logo=github&logoColor=white&labelColor=162026"/>
   </a>
 </h1>
 
@@ -103,7 +103,7 @@ Main Features:
 
 <br>
 
-> This repo has a wiki! You can check it by clicking ~~[here](https://www.youtube.com/watch?v=UIp6_0kct_U)~~ [here](https://github.com/rxyhn/dotfiles/wiki).
+> This repo has a wiki! You can check it by clicking ~~[here](https://www.youtube.com/watch?v=UIp6_0kct_U)~~ [here](https://github.com/Mine-Ranger/awesome-rxyhn-config/wiki).
 
 <!-- SETUP -->
 
@@ -150,8 +150,8 @@ systemctl --user start mpd.service
 > Clone this repository
 
 ```sh
-git clone --depth 1 --recurse-submodules https://github.com/rxyhn/dotfiles.git
-cd dotfiles && git submodule update --remote --merge
+git clone --depth 1 --recurse-submodules https://github.com/Mine-Ranger/awesome-rxyhn-config.git
+cd aweseome-rxyhn-config  && git submodule update --remote --merge
 ```
 
 > Copy config files
@@ -172,7 +172,7 @@ Necessary fonts:
 
 Optional fonts:
 
-- **My custom Iosevka build(Aesthetic Iosevka)** - [here](https://github.com/rxyhn/dotfiles/tree/main/misc/fonts/aesthetic-iosevka)
+- **My custom Iosevka build(Aesthetic Iosevka)** - [here](https://github.com/Mine-Ranger/awesome-rxyhn-config/tree/main/misc/fonts/aesthetic-iosevka)
 
   - <details>
     <summary><b>Font Preview</b></summary>
@@ -561,7 +561,7 @@ I wanna say thank you to those of you who like and love my setup <3
 
 <pre align="center">
 <a href="#japan--history">
-<img alt="" align="center" width="96%" src="https://api.star-history.com/svg?repos=rxyhn/dotfiles&type=Date"/>
+<img alt="" align="center" width="96%" src="https://api.star-history.com/svg?repos=Mine-Ranger/awesome-rxyhn-config&type=Date"/>
 </a>
 </pre>
 
