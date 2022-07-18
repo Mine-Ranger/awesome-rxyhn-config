@@ -52,6 +52,14 @@ awful.keyboard.append_global_keybindings({
 		awful.spawn(apps.default.web_browser)
 	end, { description = "open web browser", group = "app" }),
 
+	awful.key({ alt,  }, "w", function()
+		awful.spawn(apps.default.web_browser .. " web.whatsapp.com")
+	end, { description = "open Whatsapp", group = "app" }),
+
+	awful.key({ alt,  }, "y", function()
+		awful.spawn(apps.default.web_browser .. " www.youtube.com")
+	end, { description = "open Youtube", group = "app" }),
+
 
 	--- WM
 	--- ~~
