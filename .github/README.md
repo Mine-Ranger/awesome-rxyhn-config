@@ -162,6 +162,33 @@ cp -r config/* ~/.config/
 
 > Install a few fonts (mainly icon fonts) in order for text and icons to be rendered properly.
 
+Necessary fonts:
+
+- **Roboto** - [here](https://fonts.google.com/specimen/Roboto)
+- **Material Design Icons** - [here](https://github.com/google/material-design-icons)
+- **Icomoon** - [here](https://www.dropbox.com/s/hrkub2yo9iapljz/icomoon.zip?dl=0)
+- **Nerd Fonts** - [here](https://www.nerdfonts.com/font-downloads)
+  (You only need to pick and download one Nerd Font. They all include the same icons)
+
+Optional fonts:
+
+- **My custom Iosevka build(Aesthetic Iosevka)** - [here](https://github.com/rxyhn/dotfiles/tree/main/misc/fonts/aesthetic-iosevka)
+
+  - <details>
+    <summary><b>Font Preview</b></summary>
+    :bookmark_tabs: ‎ <samp>My Favorite Monospace Font</samp>
+    <br>
+    <a href="#--------">
+      <img src="https://user-images.githubusercontent.com/93292023/179448822-8f63991a-1d69-44dd-aff6-5c12372973df.png" alt="font preview" width="500px">
+    </a>
+    </details>
+
+- **Azuki Font** - [here](https://www.freejapanesefont.com/azuki-font-あずきフォント)
+
+Once you download them and unpack them, place them into `~/.fonts` or `~/.local/share/fonts`.
+
+Or you can find the required fonts inside the `misc/fonts` folder of this repository.
+
 ```sh
 cp -r misc/fonts/* ~/.fonts/
 # or to ~/.local/share/fonts
@@ -171,7 +198,7 @@ cp -r misc/fonts/* ~/.local/share/fonts/
 And run this command for your system to detect the newly installed fonts.
 
 ```sh
-fc-cache -v
+fc-cache -fv
 ```
 
 > Finally, now you can login with AwesomeWM
