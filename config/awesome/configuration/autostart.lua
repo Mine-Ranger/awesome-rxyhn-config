@@ -19,6 +19,12 @@ local function autostart_apps()
 	--- Other stuff
 	helpers.run.run_once_grep("blueman-applet")
 	helpers.run.run_once_grep("nm-applet")
+
+	-- Keys Remap
+	helpers.run.run_once_grep("xmodmap -e 'clear Lock' -e 'keycode 66 = Escape'")
+	helpers.run.run_once_grep("xmodmap -e 'clear Lock' -e 'keycode 9 = Caps_Lock'")
+	
+	
 end
 
 autostart_apps()

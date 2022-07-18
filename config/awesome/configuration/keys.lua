@@ -44,9 +44,14 @@ awful.keyboard.append_global_keybindings({
 	end, { description = "open file manager", group = "app" }),
 
 	--- Web browser
-	awful.key({ mod, shift }, "w", function()
+	awful.key({ mod, shift }, "Return", function()
 		awful.spawn(apps.default.web_browser)
 	end, { description = "open web browser", group = "app" }),
+
+	awful.key({ mod,  }, "b", function()
+		awful.spawn(apps.default.web_browser)
+	end, { description = "open web browser", group = "app" }),
+
 
 	--- WM
 	--- ~~
