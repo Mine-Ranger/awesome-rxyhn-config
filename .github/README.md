@@ -153,7 +153,7 @@ systemctl --user start mpd.service
 
 ```sh
 git clone --depth 1 --recurse-submodules https://github.com/Mine-Ranger/awesome-rxyhn-config.git
-cd aweseome-rxyhn-config  && git submodule update --remote --merge
+cd awesome-rxyhn-config  && git submodule update --remote --merge
 ```
 
 > Copy config files
