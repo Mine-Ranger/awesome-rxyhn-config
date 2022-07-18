@@ -1,0 +1,88 @@
+# Custom Iosevka build
+#
+# @author rxyhn
+# https://github.com/rxyhn
+
+# Aesthetic Iosevka
+[buildPlans.aesthetic-iosevka]   # <aesthetic-iosevka> is your plan name
+family = "Aesthetic Iosevka"     # Font menu family name
+spacing = "term"                 # Optional; Values: `normal`, `term`, `fontconfig-mono`, or `fixed`
+serifs = "sans"                  # Optional; Values: `sans` or `slab`
+
+# Configure variants
+[buildPlans.aesthetic-iosevka.variants]
+inherits = "ss14"
+
+# Configure single character's variant
+[buildPlans.aesthetic-iosevka.variants.design]
+a = "single-storey-serifless"
+f = "serifless"
+g = "single-storey-serifless"
+i = "serifed-flat-tailed"
+j = "serifed"
+capital-k = "curly-serifless"
+k = "curly-serifless"
+l = "tailed-serifed"
+m = "short-leg"
+q = "straight"
+t = "standard"
+y = "straight"
+zero = "slashed"
+one = "base"
+three = "flat-top"
+paren = "normal"
+question = "smooth"
+tilde = "low"
+asterisk = "penta-low"
+underscore = "low"
+percent = "dots"
+at = "short"
+brace = "curly"
+dollar = "interrupted"
+number-sign = "slanted"
+
+# Configure single character's variant for Italic only; Overrides [design]
+[buildPlans.aesthetic-iosevka.variants.italic]
+a = "single-storey-serifless"
+f = "tailed"
+g = "single-storey-serifless"
+i = "serifed-flat-tailed"
+j = "serifed"
+capital-k = "curly-serifless"
+k = "cursive-serifless"
+l = "tailed-serifed"
+m = "short-leg"
+q = "straight"
+t = "standard"
+y = "straight"
+zero = "slashed"
+one = "base"
+three = "flat-top"
+paren = "normal"
+question = "smooth"
+tilde = "low"
+asterisk = "penta-low"
+underscore = "low"
+percent = "dots"
+at = "short"
+brace = "curly"
+dollar = "interrupted"
+
+# Override default building weights
+# When buildPlans.<plan name>.weights is absent
+# All weights would built and mapped to default shape/CSS
+[buildPlans.aesthetic-iosevka.weights.regular]
+shape = 400  # Weight for glyph shapes.
+menu  = 400  # Weight for the font's names.
+css   = 400  # Weight for webfont CSS.
+
+[buildPlans.aesthetic-iosevka.weights.bold]
+shape = 700
+menu  = 700
+css   = 700
+
+# Metric overrides
+# Certain metrics like line height (leading) could be overridden in your build plan file.
+# Edit the values to change the metrics. Remove this section when overriding is not needed.
+[buildPlans.aesthetic-iosevka.metric-override]
+leading = 1250
