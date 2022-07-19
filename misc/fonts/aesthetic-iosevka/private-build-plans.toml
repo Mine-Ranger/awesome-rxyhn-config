@@ -4,10 +4,10 @@
 # https://github.com/rxyhn
 
 # Aesthetic Iosevka
-[buildPlans.aesthetic-iosevka]   # <aesthetic-iosevka> is your plan name
-family = "Aesthetic Iosevka"     # Font menu family name
-spacing = "term"                 # Optional; Values: `normal`, `term`, `fontconfig-mono`, or `fixed`
-serifs = "sans"                  # Optional; Values: `sans` or `slab`
+[buildPlans.aesthetic-iosevka]  # <aesthetic-iosevka> is your plan name
+family = "Aesthetic Iosevka"    # Font menu family name
+spacing = "term"                # Optional; Values: `normal`, `term`, `fontconfig-mono`, or `fixed`
+serifs = "sans"                 # Optional; Values: `sans` or `slab`
 
 # Configure variants
 [buildPlans.aesthetic-iosevka.variants]
@@ -17,6 +17,7 @@ inherits = "ss14"
 [buildPlans.aesthetic-iosevka.variants.design]
 a = "single-storey-serifless"
 f = "serifless"
+capital-g = "toothless-rounded-serifless-hooked"
 g = "single-storey-serifless"
 i = "serifed-flat-tailed"
 j = "serifed"
@@ -24,8 +25,11 @@ capital-k = "curly-serifless"
 k = "curly-serifless"
 l = "tailed-serifed"
 m = "short-leg"
+capital-q = "crossing"
 q = "straight"
 t = "standard"
+capital-w = "straight-flat-top"
+w = "straight-flat-top"
 y = "straight"
 zero = "slashed"
 one = "base"
@@ -45,6 +49,7 @@ number-sign = "slanted"
 [buildPlans.aesthetic-iosevka.variants.italic]
 a = "single-storey-serifless"
 f = "tailed"
+capital-g = "toothless-rounded-serifless-hooked"
 g = "single-storey-serifless"
 i = "serifed-flat-tailed"
 j = "serifed"
@@ -52,8 +57,11 @@ capital-k = "curly-serifless"
 k = "cursive-serifless"
 l = "tailed-serifed"
 m = "short-leg"
+capital-q = "crossing"
 q = "straight"
 t = "standard"
+capital-w = "straight-flat-top"
+w = "straight-flat-top"
 y = "straight"
 zero = "slashed"
 one = "base"
