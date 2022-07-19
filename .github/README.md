@@ -181,7 +181,7 @@ Optional fonts:
     :bookmark_tabs: ‎ <samp>My Favorite Monospace Font</samp>
     <br>
     <a href="#--------">
-      <img src="https://user-images.githubusercontent.com/93292023/179448822-8f63991a-1d69-44dd-aff6-5c12372973df.png" alt="font preview" width="500px">
+      <img src="https://user-images.githubusercontent.com/93292023/179637338-ee542025-86e6-427f-8393-916cbbea2492.png" alt="font preview" width="500px">
     </a>
     </details>
 
