@@ -169,8 +169,6 @@ Necessary fonts:
 - **Roboto** - [here](https://fonts.google.com/specimen/Roboto)
 - **Material Design Icons** - [here](https://github.com/google/material-design-icons)
 - **Icomoon** - [here](https://www.dropbox.com/s/hrkub2yo9iapljz/icomoon.zip?dl=0)
-- **Nerd Fonts** - [here](https://www.nerdfonts.com/font-downloads)
-  (You only need to pick and download one Nerd Font. They all include the same icons)
 
 Optional fonts:
 
@@ -179,9 +177,11 @@ Optional fonts:
   - <details>
     <summary><b>Font Preview</b></summary>
     :bookmark_tabs: ‎ <samp>My Favorite Monospace Font</samp>
+
+    Font based on Iosevka Custom Build, and some [Nerd Font](https://github.com/ryanoasis/nerd-fonts) [Patching.](https://github.com/ryanoasis/nerd-fonts#font-patcher)
     <br>
     <a href="#--------">
-      <img src="https://user-images.githubusercontent.com/93292023/179448822-8f63991a-1d69-44dd-aff6-5c12372973df.png" alt="font preview" width="500px">
+    <img src="https://user-images.githubusercontent.com/93292023/179637338-ee542025-86e6-427f-8393-916cbbea2492.png" alt="font preview" width="500px">
     </a>
     </details>
 
