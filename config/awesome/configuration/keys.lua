@@ -33,6 +33,10 @@ awful.keyboard.append_global_keybindings({
 		awful.spawn.with_shell(apps.default.app_launcher)
 	end, { description = "open app launcher", group = "app" }),
 
+	awful.key({ alt }, "space", function()
+		awful.spawn.with_shell(apps.default.app_launcher)
+	end, { description = "open app launcher", group = "app" }),
+
 	--- Code editor
 	awful.key({ mod, shift }, "e", function()
 		awful.spawn(apps.default.code_editor)
