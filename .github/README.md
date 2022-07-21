@@ -45,12 +45,12 @@ Welcome to my AwesomeWM configuration files!
 
 This is my personal collection of configuration files.
 
-You might be here for looking my AwesomeWM configuration files? or looking for **Linux Rice** reference?
+You might be here looking for my AwesomeWM configuration files or looking for **Linux Rice** reference?
 
-feel free to steal anything from here but don't forget to give me **credits** :)
+Feel free to steal anything from here but don't forget to give me **credits** :)
 
-AwesomeWM is the most powerful and highly configurable, next generation framework window manager for X,
-Although it takes time and effort to configure it, but I'm very satisfied with this aesthetic result.
+AwesomeWM is the most powerful and highly configurable next-generation framework window manager for X.
+Although it takes time and effort to configure it, I am very satisfied with this aesthetic result.
 
 <!-- INFORMATION -->
 
@@ -70,7 +70,7 @@ Here are some details about my setup:
 AwesomeWM Modules:
 
 - **[bling](https://github.com/blingcorp/bling)**
-  - Adds new layouts, modules, and widgets that try to primarily focus on window management
+  - Adds new layouts, modules, and widgets that try to focus on window management primarily
 - **[color](https://github.com/andOrlando/color)**
   - Clean and efficient api for color conversion in lua
 - **[layout-machi](https://github.com/xinhaoyuan/layout-machi)**
@@ -172,6 +172,7 @@ Necessary fonts:
 
 Optional fonts:
 
+<<<<<<< HEAD
 - **My custom Iosevka build(Aesthetic Iosevka)** - [here](https://github.com/Mine-Ranger/awesome-rxyhn-config/tree/main/misc/fonts/aesthetic-iosevka)
 
   - <details>
@@ -185,6 +186,9 @@ Optional fonts:
     </a>
     </details>
 
+=======
+- **My custom Iosevka build(Aesthetic Iosevka)** - [here](https://github.com/rxyhn/dotfiles/tree/main/misc/fonts/Aesthetic%20Iosevka)
+>>>>>>> rxyhn/main
 - **Azuki Font** - [here](https://www.freejapanesefont.com/azuki-font-あずきフォント)
 
 Once you download them and unpack them, place them into `~/.fonts` or `~/.local/share/fonts`.
@@ -390,9 +394,9 @@ EndSection
 
 Introducing the Aesthetic Night colorscheme!
 
-Beautiful and elegant color scheme, perfect for programmers who live in the middle of the night.
+Beautiful and elegant color schemes are perfect for programmers who live in the middle of the night.
 
-With the neat color combination that it can keep the eyes from getting tired! so you can keep writing code and continue all your work all night!
+The nearest color combination that it can keep the eyes from getting tired! So you can keep writing code and continue all your work all night!
 
 This colorscheme is used for all aspects in these dotfiles, yeeaaaah this aesthetic dotfiles is combined with an aesthetic colorscheme <3
 
@@ -517,6 +521,61 @@ This colorscheme was made by [`ner0z`](https://github.com/ner0z) and modified by
 
 </details>
 
+<!-- Aesthetic Iosevka Font -->
+
+## :bookmark_tabs: ‎ <samp>Fonts</samp>
+
+I have created a Custom Font that based on [Iosevka Custom Build](https://github.com/be5invis/Iosevka/blob/master/doc/custom-build.md), has two variants `Original` and [`Nerd Font`](https://github.com/ryanoasis/nerd-fonts). This font supports ligatures!
+
+This is My Favorite Monospace Font! This font is used in my terminal emulator and all my code editor. Yes, for better Code.
+
+You know what? This Font is absolutely Awesome! If combined with Aesthetic Night Colorscheme!
+
+<b>Font Preview:</b>
+
+- <details>
+  <summary>Regular</summary>
+  <br>
+  <a href="#--------">
+  <img src="https://user-images.githubusercontent.com/93292023/179895783-e4e96572-821c-4684-8b22-886f508d5e8e.png" alt="font preview" width="500px">
+  </a>
+  </details>
+
+- <details>
+  <summary>Italic</summary>
+  <br>
+  <a href="#--------">
+  <img src="https://user-images.githubusercontent.com/93292023/179895825-5dade677-4fc6-4345-a564-719a649c0f2d.png" alt="font preview" width="500px">
+  </a>
+  </details>
+
+<b>Installation:</b>
+
+1. Clone or Download this repository
+2. Change the current directory to `dotfiles/misc/fonts/Aesthetic Iosevka`
+3. Choose the variant you want, or choose both
+4. Take actions depending on your OS:
+   - **Windows**: Select the font files and drag into font [settings](ms-settings:fonts) / font control panel page.
+     - On Windows 10 1809 or newer, the default font installation is per-user, and it may cause compatibility issues for some applications, mostly written in Java. To cope with this, right click and select “Install for all users” instead. [Ref.](https://youtrack.jetbrains.com/issue/JRE-1166?p=IDEA-200145)
+   - **macOS**: [Follow instructions here](http://support.apple.com/kb/HT2509).
+   - **Linux** : Copy the font files to your fonts directory then run `sudo fc-cache`.
+
+<b>Usage:</b>
+
+- Original:
+
+  ```json
+  "editor.fontFamily": "Aesthetic Iosevka Original",
+  "editor.fontLigatures": true,
+  ```
+
+- Nerd Font:
+
+  ```json
+  "editor.fontFamily": "AestheticIosevka Nerd Font",
+  "editor.fontLigatures": true,
+  ```
+
 <!-- GALLERY -->
 
 ## :ocean: ‎ <samp>Gallery</samp>
@@ -557,9 +616,9 @@ This colorscheme was made by [`ner0z`](https://github.com/ner0z) and modified by
 
 ## :japan: ‎ <samp>History</samp>
 
-Ngl this is started when im feel bored lol and decided to start using Linux, more precisely in January 2022. When it's in [Linuxer Desktop Art](https://facebook.com/groups/linuxart) i saw a linux setup that caught my eye, then I'm interested in and trying something similar, So yeaaaaaah this is my current setup, I made this with all Aesthetic I have. Yes! you're right! everything you see here is all about beautiful and aesthetic, and ofc apart from targeting the beautiful UI I also pay attention to the functionality, because I'm targeting an OS that's comfortable to wear and look at. Have a Nice Day! <3
+Ngl is started when I am felt bored lol and decided to start using Linux, more precisely in January 2022. When it's in [Linuxer Desktop Art](https://facebook.com/groups/linuxart) I saw a Linux setup that caught my eye, then I'm interested in and trying something similar, So yeaaaaaah this is my current setup, I made this with all Aesthetic I have. Yes! You are right! Everything you see here is all about beautiful and aesthetic, and ofc apart from targeting the beautiful UI I also pay attention to the functionality, because I'm targeting an OS that's comfortable to wear and look at. Have a Nice Day! <3
 
-I wanna say thank you to those of you who like and love my setup <3
+I wanna say thank you to those of you who like and love my setup. <3
 
 <pre align="center">
 <a href="#japan--history">
@@ -571,7 +630,7 @@ I wanna say thank you to those of you who like and love my setup <3
 
 ## :money_with_wings: ‎ <samp>TIP JAR</samp>
 
-I've ko-fi account, So if you enjoyed it and would like to show your appreciation, you may want to tip me here.
+I have a ko-fi account, so if you enjoyed it and would like to show your appreciation, you may want to tip me here.
 
 It is never required but always appreciated.
 
