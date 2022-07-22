@@ -380,7 +380,7 @@ Section "InputClass"
     Driver "libinput"
     MatchIsTouchpad "on"
     Option "Tapping" "on"
-    Option "TappingButtonMap" "lmr"
+    Option "TappingButtonMap" "lrm"
     Option "NaturalScrolling" "true"
 EndSection
 ```
