@@ -60,7 +60,8 @@ Here are some details about my setup:
 
 - **OS:** [Arch Linux](https://archlinux.org)
 - **WM:** [awesome](https://github.com/awesomeWM/awesome)
-- **Terminal:** [wezterm](https://github.com/wez/wezterm)
+- **Terminal:** [kitty](https://github.com/kovidgoyal/kitty)
+- **Embedded Terminal:** [wezterm](https://github.com/wez/wezterm)
 - **Shell:** [zsh](https://www.zsh.org/)
 - **Editor:** [neovim](https://github.com/neovim/neovim) / [vscode](https://github.com/microsoft/vscode)
 - **Compositor:** [picom](https://github.com/yshui/picom)
