@@ -173,21 +173,6 @@ Necessary fonts:
 
 Optional fonts:
 
-<<<<<<< HEAD
-- **My custom Iosevka build(Aesthetic Iosevka)** - [here](https://github.com/Mine-Ranger/awesome-rxyhn-config/tree/main/misc/fonts/aesthetic-iosevka)
-
-  - <details>
-    <summary><b>Font Preview</b></summary>
-    :bookmark_tabs: ‎ <samp>My Favorite Monospace Font</samp>
-
-    Font based on Iosevka Custom Build, and some [Nerd Font](https://github.com/ryanoasis/nerd-fonts) [Patching.](https://github.com/ryanoasis/nerd-fonts#font-patcher)
-    <br>
-    <a href="#--------">
-    <img src="https://user-images.githubusercontent.com/93292023/179637338-ee542025-86e6-427f-8393-916cbbea2492.png" alt="font preview" width="500px">
-    </a>
-    </details>
-
-=======
 - **My custom Iosevka build(Aesthetic Iosevka)** - [here](https://github.com/rxyhn/dotfiles/tree/main/misc/fonts/Aesthetic%20Iosevka)
 >>>>>>> rxyhn/main
 - **Azuki Font** - [here](https://www.freejapanesefont.com/azuki-font-あずきフォント)
