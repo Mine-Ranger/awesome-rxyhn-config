@@ -38,16 +38,8 @@ _AUTHOR_NAME_=" $USER"
 _AUTHOR_COLOR_='#6791c9'
 
 # Get Lists Font With "convert -list font | grep -iE 'font:.*' | nl"
-<<<<<<< HEAD
-_FONT_SIZE_=10
-<<<<<<< HEAD
-_FONT_='Aesthetic-Iosevka-Nerd-Font-Complete'
-=======
-=======
 _FONT_SIZE_=11
->>>>>>> 3e8ac991fe2b30484750c19a939edda29e4e21c8
 _FONT_='AestheticIosevka-Nerd-Font-Complete'
->>>>>>> rxyhn/main
 
 # =============================================
 

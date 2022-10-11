@@ -7,11 +7,7 @@
 
 <p align="center">
 <a href="#wrench--setup"><img width="150px" style="padding: 0 10px;" src="assets/button-setup.png"></a>
-<<<<<<< HEAD
 <a href="https://github.com/Mine-Ranger/awesome-rxyhn-config/wiki"><img width="150px" style="padding: 0 10px;" src="assets/button-wiki.png"></a>
-=======
-<a href="https://github.com/rxyhn/yoru/wiki"><img width="150px" style="padding: 0 10px;" src="assets/button-wiki.png"></a>
->>>>>>> 3e8ac991fe2b30484750c19a939edda29e4e21c8
 <a href="#ocean--gallery"><img width="150px" style="padding: 0 10px;" src="assets/button-gallery.png"></a>
 <a href="#money_with_wings--tip-jar"><img width="150px" style="padding: 0 10px;" src="assets/button-tipjar.png"></a>
 </p>
@@ -30,17 +26,10 @@
 <!-- BADGES -->
 <h1>
   <a href="#--------">
-<<<<<<< HEAD
     <img alt="" align="left" src="https://img.shields.io/github/stars/Mine-Ranger/awesome-rxyhn-config?color=162026&labelColor=162026&style=for-the-badge"/>
   </a>
   <a href="#--------">
     <img alt="" align="right" src="https://badges.pufler.dev/visits/Mine-Ranger/awesome-rxyhn-config?style=flat-square&label=&color=162026&logo=github&logoColor=white&labelColor=162026"/>
-=======
-    <img alt="" align="right" src="https://img.shields.io/github/stars/rxyhn/yoru?color=0C0E0F&labelColor=0C0E0F&style=for-the-badge"/>
-  </a>
-  <a href="#--------">
-    <img alt="" align="left" src="https://badges.pufler.dev/visits/rxyhn/yoru?style=flat-square&label=&color=0C0E0F&logo=github&logoColor=white&labelColor=0C0E0F"/>
->>>>>>> 3e8ac991fe2b30484750c19a939edda29e4e21c8
   </a>
 </h1>
 
@@ -119,10 +108,6 @@ Main Features:
 
 <<<<<<< HEAD
 > This repo has a wiki! You can check it by clicking ~~[here](https://www.youtube.com/watch?v=UIp6_0kct_U)~~ [here](https://github.com/Mine-Ranger/awesome-rxyhn-config/wiki).
-=======
-> This repo has a wiki! You can check it by clicking ~~[here](https://www.youtube.com/watch?v=UIp6_0kct_U)~~ [here](https://github.com/rxyhn/yoru/wiki).
->>>>>>> 3e8ac991fe2b30484750c19a939edda29e4e21c8
-
 <!-- SETUP -->
 
 ## :wrench: ‎ <samp>Setup</samp>
@@ -148,13 +133,8 @@ paru -S awesome-git
 ```sh
 paru -Sy picom-git wezterm kitty rofi acpi acpid acpi_call upower lxappearance-gtk3 \
 jq inotify-tools polkit-gnome xdotool xclip gpick ffmpeg blueman redshift \
-<<<<<<< HEAD
 pipewire pipewire-alsa pipewire-pulse pamixer brightnessctl feh maim \
 mpv mpd mpc mpdris2 python-mutagen pavucontrol pcmanfm nitrogen ncmpcpp playerctl --needed
-=======
-pipewire pipewire-alsa pipewire-pulse alsa-utils brightnessctl feh maim \
-mpv mpd mpc mpdris2 python-mutagen ncmpcpp playerctl --needed
->>>>>>> 3e8ac991fe2b30484750c19a939edda29e4e21c8
 ```
 
 > Enable Services
@@ -651,11 +631,7 @@ I wanna say thank you to those of you who like and love yoru. <3
 
 <pre align="center">
 <a href="#japan--history">
-<<<<<<< HEAD
 <img alt="" align="center" width="96%" src="https://api.star-history.com/svg?repos=Mine-Ranger/awesome-rxyhn-config&type=Date"/>
-=======
-<img alt="" align="center" width="96%" src="https://api.star-history.com/svg?repos=rxyhn/yoru&type=Date"/>
->>>>>>> 3e8ac991fe2b30484750c19a939edda29e4e21c8
 </a>
 </pre>
 
